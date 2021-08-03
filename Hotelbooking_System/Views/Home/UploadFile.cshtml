@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "FileUpload";
+}
+
+<asp:Content ID="indexTitle" ContentPlaceHolderID="TitleContent" runat="server">
+    Home Page
+</asp:Content>
+
+<asp:Content ID="indexContent" ContentPlaceHolderID="MainContent" runat="server">
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" /><br />
+        <input type="submit" value="提交" />
+    </form>
+</asp:Content>
